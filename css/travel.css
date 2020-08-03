@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #fff;
+  font-family: 'Candara';
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.logo{
+    float:left;
+    margin: 40px auto auto 80px;
+      color: #fff;
+}
+
+.navlist{
+    list-style: none;
+    float: right;
+    display: inline;
+    color: #fff;
+    margin: 40px 75px auto auto;
+
+}
+
+a{
+     text-decoration: none;
+     display: inline-block;
+     color: #fff;
+}
+
+.navlist li{
+    display: inline-block;
+    margin:auto 20px;
+}
+header {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(resources/main.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130vh;
+  }
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    word-spacing: 4px;  
+    font-size:540%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    word-spacing: 4px;  
+    font-size:200%;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button{
+    text-decoration: none;
+    border-radius: 10px;
+    padding:10px 30px ;
+    border-color: #f26522;
+    background-color: #f26522;
+    border: 1px solid #f26522;
+    color: #fff;
+    font-weight: 500;
+    font-size:90%;
+    transition: color 0.2s, background-color 0.2s;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clearof{
+    clear: both;
+}
+
+.container1{
+    margin:100px 100px;
+    width: 90%;
+    color: black;
+}
+
+img{
+    float:left;
+    margin-right: 60px;
+    width: 55%;
+    height: 45%;
+}
+p{ 
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+line-height: 2;
+text-indent: 0;}
+
+
+footer{
+    background-color: #f26522;
+    padding:40px 50px;
+}
+.navlistF{
+    list-style: none;
+    float: right;
+    display: inline-block;
+    color: #fff;
+   
+}
+
+.navlistF li{
+    display: inline-block;
+    margin:auto 20px;
+}
+
+
